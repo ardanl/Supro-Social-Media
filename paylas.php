@@ -132,7 +132,7 @@ if(($KullaniciID)){
                 $orjinalIcerik = trim(html_entity_decode(strip_tags($_POST["IcerikMetni"]), ENT_QUOTES, 'UTF-8'));
 
                 // OpenAI API key (güvenli kullanım için .env veya direkt değişken)
-                $openaiKey = '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';
+                $openaiKey = '';
 
                 $payload = [
                     "model" => "gpt-4o-mini",
