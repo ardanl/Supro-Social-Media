@@ -6,10 +6,10 @@ ini_set("display_errors", 1);
 
 date_default_timezone_set('Europe/Istanbul');
 
-$db_user = "suprocom_supro"; 
-$db_pass = "g2TQW9YRQRa8SqtGLNGg"; 
-$db_name = "suprocom_supro"; 
-$host_name = "localhost";
+$db_user = ""; 
+$db_pass = ""; 
+$db_name = ""; 
+$host_name = "";
 
 try {
 	$conn = new PDO("mysql:host=$host_name;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
