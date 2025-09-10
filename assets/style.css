@@ -1,0 +1,584 @@
+* {
+    font-family: "Quicksand", serif;
+    transition: 0.5s ease;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.text-pink{
+    color: #d63384;
+}
+
+.text-purple{
+    color: #6f42c1;
+}
+
+.text-indigo{
+    color: #6610f2;
+}
+
+.text-teal{
+    color: #20c997;
+}
+
+.text-orange{
+    color: #fd7e14;
+}
+
+.text-yellow{
+    color: ffc107;
+}
+
+/* Kaydırma çubuğu için genel stil */
+::-webkit-scrollbar {
+    width: 1px;
+    /* Dikey kaydırma çubuğunun genişliği */
+    height: 1px;
+    /* Yatay kaydırma çubuğunun yüksekliği */
+}
+
+/* Kaydırma çubuğunun arka planını değiştirme */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Kaydırma çubuğunun arka plan rengi */
+    border-radius: 10px;
+}
+
+.form-check-input:checked {
+    background-color: #20c997 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+table.table-bordered.dataTable th,
+table.table-bordered.dataTable td {
+    vertical-align: middle;
+}
+
+.dt-row {
+    overflow-x: auto;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+a {
+    text-decoration: none;
+    color: auto;
+}
+
+@media (min-width: 768px) {
+  .fixed-bottom {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fixed-bottom img{
+      width: 3rem !important;
+      height: 3rem !important;
+  }
+}
+
+.dark {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.border-color,
+.modal-header,
+.modal-footer {
+    border-color: #fff !important;
+}
+
+.color {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.text-muted {
+    color: #b4b4b4 !important;
+}
+
+.btn-close {
+    color: #fff !important;
+}
+
+.color-modal {
+    background-color: #303030;
+}
+
+.instagram-logo {
+  background: radial-gradient(circle at 30% 107%, 
+    #feda75 0%, 
+    #fa7e1e 25%, 
+    #d62976 50%, 
+    #962fbf 75%, 
+    #4f5bd5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.youtube-logo{
+    background-color: #FF0000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.linkedin-logo {
+  background: linear-gradient(45deg, #0077b5, #00a0dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.snapchat-logo {
+  background: linear-gradient(45deg, #fffc00, #ffe600, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tiktok-logo {
+  background: linear-gradient(135deg, #25f4ee, #fe2c55);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spotify-logo {
+  background: linear-gradient(45deg, #1db954, #1ed760, #1aa34a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-color {
+    color: #5e8ab7;
+}
+
+.btn-color {
+    border-color: #f1f1f1;
+    color: #fff !important;
+    background-color: #b4b4b4;
+}
+
+.btn-color:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+input,
+select,
+textarea {
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.list-group-item {
+    border-radius: 0px;
+}
+
+.fi {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+option {
+    background-color: #05242c;
+    color: #fff;
+}
+
+.tek-satir{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sticker-header{
+    overflow: hidden;
+}
+
+.scroll-text {
+  width: 100px; /* ya da ihtiyacın olan genişlik */
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: scroll-left 6s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.profil-sticker {
+    position: absolute;
+    height: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: -1.2rem;
+    z-index: 1;
+}
+
+.tick {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent
+}
+
+.g-karpuz {
+    background: linear-gradient(to right, #ff6b6b, #f8e9a1);
+}
+
+.g-limon {
+    background: linear-gradient(to right, #f9f871, #d9f76c);
+}
+
+.g-yesil-cay {
+    background: linear-gradient(to right, #c1dfc4, #deecdd);
+}
+
+.g-okyanus {
+    background: linear-gradient(to left, #2e3192, #1bffff);
+}
+
+.esmanurr {
+    background: linear-gradient(to left, #4b3832, #854442);
+}
+
+.g-altin {
+    background: linear-gradient(to right, #f6d365, #fda085);
+}
+
+.g-kor {
+    background: linear-gradient(to right, #e96443, #904e95);
+}
+
+.g-derin-mavi {
+    background: linear-gradient(to right, #000046, #1cb5e0);
+}
+
+.g-mint {
+    background: linear-gradient(to right, #98ff98, #00b894);
+}
+
+.g-buzlu-mavi {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+.g-gun-dogumu {
+    background: linear-gradient(to right, #f3904f, #3b4371);
+}
+
+.g-sisli {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.g-kristal {
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+.g-ruzgar {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+.g-yildizli-gece {
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+.g-sonbahar {
+    background: linear-gradient(to right, #e96443, #904e95);
+}
+
+.g-mavi {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.g-turuncu {
+    background: linear-gradient(to left, #ff7e5f, #feb47b);
+}
+
+.g-mor {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.g-cyan {
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+
+.g-pembe {
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+.g-yesil {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.dehaa {
+    background: linear-gradient(to left, #000428, #004e92);
+}
+
+.g-beyaz {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.dilostunc {
+    background: linear-gradient(to left, #f12711, #f5af19);
+}
+
+.g-gokkusagi {
+    background: linear-gradient(90deg, #ff0000, #ff9900, #ffee00, #33cc33, #3399ff, #9900cc, #ff3399);
+}
+
+.mertocenk {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.g-safran {
+    background: linear-gradient(to right, #f6d365, #fda085);
+}
+
+.g-seftali {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.g-kum {
+    background: linear-gradient(to right, #eacda3, #d6ae7b);
+}
+
+.g-kutup {
+    background: linear-gradient(to left, #2193b0, #6dd5ed);
+}
+
+.g-gece {
+    background: linear-gradient(to left, #141e30, #243b55);
+}
+
+.g-uzay {
+    background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
+
+.g-lila {
+    background: linear-gradient(to left, #e0c3fc, #8ec5fc);
+}
+
+.g-nane {
+    background: linear-gradient(to left, #a1ffce, #faffd1);
+}
+
+.g-pamuk {
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+
+.sussee {
+    background: linear-gradient(to left, #ff9a9e, #fad0c4, #fad0c4);
+}
+
+.g-bubblegum {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+
+.g-yagmur {
+    background: linear-gradient(to left, #00c3ff, #ffff1c);
+}
+
+.mavis{
+    background: linear-gradient(to right, #ffeb00, #aa8411);
+}
+
+.g-mercan {
+    background: linear-gradient(to left, #ff6a88, #ff99ac);
+}
+
+.g-deniz {
+    background: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+.g-yasemin {
+    background: linear-gradient(to right, #f9f586, #b7e4c7);
+}
+
+.g-orman {
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+}
+
+.g-gokyuzu {
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+.g-turkuaz {
+    background: linear-gradient(to right, #1de099, #1dc8cd);
+}
+
+.g-safir {
+    background: linear-gradient(to left, #283e51, #485563);
+}
+
+.g-cim{
+    background: linear-gradient(to right, #7bed9f, #2ecc71);
+}
+
+.g-zeytin{
+    background: linear-gradient(to right, #b2fba5, #5a7d3b);
+}
+
+.g-nar {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.endlosacrima{
+    background: linear-gradient(to right, #78866b, #4b5320);
+}
+
+.g-selvi {
+    background: linear-gradient(to left, #134e5e, #71b280);
+}
+
+.g-kavun {
+    background: linear-gradient(to right, #ffe259, #ffa751);
+}
+
+.g-kakao {
+    background: linear-gradient(to left, #7b4f28, #d9a441);
+}
+
+.g-lavanta {
+    background: linear-gradient(to right, #b993d6, #8ca6db);
+}
+
+.g-safir-mavi {
+    background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
+
+.g-papatya {
+    background: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+
+.g-cam {
+    background: linear-gradient(to left, #234d20, #71a13b);
+}
+
+.g-hurma {
+    background: linear-gradient(to left, #5a3f37, #2c7744);
+}
+
+.g-moonlight {
+    background: linear-gradient(to right, #232526, #1c1c1c);
+}
+
+.simeranya {
+    background: linear-gradient(to left, #a1c4fd, #c2e9fb);
+}
+
+.g-sunset-glow {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.g-icefire {
+    background: linear-gradient(to left, #5c00b8, #e100ff);
+}
+
+.g-citrus-mint {
+    background: linear-gradient(to right, #f9d423, #1cc7c1);
+}
+
+.g-stormy-sea {
+    background: linear-gradient(to right, #005c97, #363795);
+}
+
+.g-peach-blue {
+    background: linear-gradient(to left, #ed4264, #fcb69f);
+}
+
+.g-neon-dusk {
+    background: linear-gradient(to right, #ee7752, #23d5ab, #23a6d5);
+}
+
+.g-cool-warm {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff, #f7797d, #fbd786);
+}
+
+.g-mystic-purple {
+    background: linear-gradient(to left, #6a3093, #a044ff);
+}
+
+.g-spring-breeze {
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+}
+
+.g-electric-lime {
+    background: linear-gradient(to right, #d0ff14, #32cd32);
+}
+
+.zeynabi {
+    background: linear-gradient(to right, #e35353, #4b0303);
+}
+
+.ardos {
+    background: linear-gradient(to left, #6c757d, #ffffff);
+}
+
+.kubos {
+    background: linear-gradient(to right, pink, #d63384);
+}
+
+.sulap {
+    background: linear-gradient(to right, #00ff7f, #006400);
+}
+
+.black{
+    background: linear-gradient(to right, #49565e, #1e1e26);
+}
+
+.kvseyma{
+    background: linear-gradient(to left, #491c3f, #a1468b);
+}
+
+.karin{
+    background: linear-gradient(to left, #1e9471, #bfffec);
+}
+
+.raana{
+    background: linear-gradient(to left, #783dd3, #be94ff);
+}
+
+.berry{
+    background: linear-gradient(to right, #ffffbe, #d2bc89);
+}
+
+.darcy{
+    background: linear-gradient(to right, #44fff8, #17707e);
+}
+
+.rose{
+    background: linear-gradient(to right, #ffd6ec, #de91b3);
+}
+
+.yaren{
+    background: linear-gradient(to right, #6b2b3b, #3d0e18);
+}
+
+.eraycan{
+    background: linear-gradient(to right, #9f9989, #463936);
+}
+
+.edank7{
+    background: linear-gradient(to right, #dea6a7, #ab143c);
+}
