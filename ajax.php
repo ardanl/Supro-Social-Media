@@ -344,13 +344,9 @@ if ($_POST["ajax"] != "") {
 
         if ($suproMentioned) {
 
-            // (Opsiyonel) AJAX cevabını hemen döndür, AI işlemini arkada tamamla:
-            // if (function_exists('fastcgi_finish_request')) { fastcgi_finish_request(); }
-
             $orjinalYorum = trim(html_entity_decode(strip_tags($_POST["Yorum"]), ENT_QUOTES, 'UTF-8'));
 
-            // Güvenli: anahtarı .env'den al
-            $openaiKey = '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'; // putenv/Apache env/PHP dotenv ile koy
+            $openaiKey = ''; // putenv/Apache env/PHP dotenv ile koy
 
             // === 2) OpenAI'ye İstek ===
             $payload = [
